@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+  #title{
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+    padding:0.5rem;
+  }
+  h2{
+    font-size:35px;
+    text-decoration: underline;
+  }
+  body{
+   padding:1rem;
+    background-color:grey;
+  }
+  p{
+    font-size: 25px;
+    font-family: cursive;
+  }
+  #submitb:hover{
+    color:white;
+    background-image:linear-gradient(grey,black,white)
+ 
+  }
+  #contact-form label{
+    display:block;
+  }
+  #contact-form input,#message{
+    display:block;
+    padding:1rem;
+    width:100%;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    
+  }
+  #contact{
+    margin:auto;
+    width:50%;
+  }
+  /*This is a styling for header section*/
+  #navbar{
+    display:flex;
+    list-style-type: none;
+    width:100%;
+    background-color: white;
+    padding:1.5rem;
+    justify-content: space-around;
+  }
+  li{
+    font-size:1.5rem;
+  }
+  .nav-section{
+    display:none;
+  }
+  .navlink:hover{
+    cursor: pointer;
+  }
+ 
+  /* This is for styling picture*/
+  #righthere{
+    width:15rem;
+    height:100%;
+    margin-bottom: 2rem;
+  }
+  #img-coding{
+    height:auto;
+    width:70%;
+ 
+   
+  }
+  #welcome{
+    font-size: 35px;
+  font-family:cursive ;
+  
+
+
+  }
+
+  .home-image{
+    margin:auto;
+    display:block;
+  }
+  /*This is for the contact section*/
+  #success{
+    display:none;
+    background-color: aqua;
+    padding:5rem;
+    position:absolute;
+    margin:auto;
+    width:max-content;
+    
+  }
+  
