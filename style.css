@@ -88,10 +88,13 @@
   #success{
     display:none;
     background-color: aqua;
-    padding:5rem;
+ 
     position:absolute;
-    margin:auto;
+   
     width:max-content;
     
   }
-  
+  a:hover{
+    color:#f29c07;
+    background-color:black ;
+  }
