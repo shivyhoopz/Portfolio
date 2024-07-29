@@ -105,7 +105,7 @@
   }
   /*This section is for the footer*/
   footer{
-    position:fixed;
+    position:sticky;
     bottom:0;
     background-color: beige;
     padding:2rem;
